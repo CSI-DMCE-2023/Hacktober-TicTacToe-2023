@@ -24,22 +24,8 @@ The project comprises five distinct packages:
 
 
 ## Sneak Peak
-![Splash Screen](screenshots/1.png)
-
-![Home Screen](screenshots/2.png)
-
-![Sign Up Screen](screenshots/3.png)
-
-![Log in Screen](screenshots/4.png)
-
-![Player Screen](screenshots/5.png)
-
-![Game Screen](screenshots/6.png)
-
-![Game Tie Screen](screenshots/7.png)
-
-![Winner Screen](screenshots/8.png)
-
+<img src="screenshots/1.png" alt="Image 1" height="500" width="200" /> 
+<img src="screenshots/2.png" alt="Image 2" height="500" width="200" /> 
 
 
 
