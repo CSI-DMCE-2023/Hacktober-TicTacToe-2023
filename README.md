@@ -24,21 +24,21 @@ The project comprises five distinct packages:
 
 
 ## Sneak Peak
-![Splash Screen](TTT Screenshots/1.png)
+![Splash Screen](screenshots/1.png)
 
-![Home Screen](TTT Screenshots/2.png)
+![Home Screen](screenshots/2.png)
 
-![Sign Up Screen](TTT Screenshots/3.png)
+![Sign Up Screen](screenshots/3.png)
 
-![Log in Screen](TTT Screenshots/4.png)
+![Log in Screen](screenshots/4.png)
 
-![Player Screen](TTT Screenshots/5.png)
+![Player Screen](screenshots/5.png)
 
-![Game Screen](TTT Screenshots/6.png)
+![Game Screen](screenshots/6.png)
 
-![Game Tie Screen](TTT Screenshots/7.png)
+![Game Tie Screen](screenshots/7.png)
 
-![Winner Screen](TTT Screenshots/8.png)
+![Winner Screen](screenshots/8.png)
 
 
 
