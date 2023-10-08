@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    tools:context=".auth.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bgfront"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:text="Log In"
+            android:textColor="#0EEAEB"
+            android:textSize="40dp" />
+
+
+        <EditText
+            android:id="@+id/emaill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:ems="10"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:hint="Your Email Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="#CAE2FC" />
+
+
+        <EditText
+            android:id="@+id/passl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#CAE2FC" />
+
+
+        <Button
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logBtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:backgroundTint="#860EEB"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:text="Log In!" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/josefin_sans_bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#0EEB7A"
+            android:text="I don't have my account :)"
+            android:onClick="onClick" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
