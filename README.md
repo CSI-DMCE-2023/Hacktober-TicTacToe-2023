@@ -24,21 +24,21 @@ The project comprises five distinct packages:
 
 
 ## Sneak Peak
-![Splash Screen](https://drive.google.com/file/d/1rd8o2gk6rFxeZh4yOtq77CEP5fbr6rXu/view?usp=drive_link)
+![Splash Screen](TTT Screenshots/1.png)
 
-![Home Screen](https://drive.google.com/file/d/1i_ycn_-oyNRmyqxWoTkrT7gpd0SWtJCb/view?usp=drive_link)
+![Home Screen](TTT Screenshots/2.png)
 
-![Sign Up Screen](https://drive.google.com/file/d/1toUWvtIpeeZDQ6L--wwXOjwMBf6SimW0/view?usp=drive_link)
+![Sign Up Screen](TTT Screenshots/3.png)
 
-![Log in Screen](https://drive.google.com/file/d/111GPxoazk12EyvmkTSy-hSCwd11ksyLK/view?usp=drive_link)
+![Log in Screen](TTT Screenshots/4.png)
 
-![Player Screen](https://drive.google.com/file/d/1T0fdqWEPAUdoZTJSQXXXlAaIwFHFv_J5/view?usp=drive_link)
+![Player Screen](TTT Screenshots/5.png)
 
-![Game Screen](https://drive.google.com/file/d/1mZbwLfyaBMyQmLsGqIPViLY2LMLGPQ71/view?usp=drive_link)
+![Game Screen](TTT Screenshots/6.png)
 
-![Game Tie Screen](https://drive.google.com/file/d/12ti7372v8DlF3Q-Lo5nZvAWwqIcbkrp5/view?usp=drive_link)
+![Game Tie Screen](TTT Screenshots/7.png)
 
-![Win Screen](https://drive.google.com/file/d/1dq3hLXWVHNZEqzUufsA7Dnhu66JyrOiN/view?usp=drive_link)
+![Winner Screen](TTT Screenshots/8.png)
 
 
 
