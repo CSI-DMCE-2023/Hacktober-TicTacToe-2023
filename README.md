@@ -24,8 +24,8 @@ The project comprises five distinct packages:
 
 
 ## Sneak Peak
-<img src="screenshots/1.png" alt="Image 1" height="500" width="200" /> 
-<img src="screenshots/2.png" alt="Image 2" height="500" width="200" /> 
+<img src="screenshots/group_1.png" alt="Image 1"/> 
+<img src="screenshots/group_2.png" alt="Image 2"/> 
 
 
 
