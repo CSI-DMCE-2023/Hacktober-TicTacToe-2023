@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tic Tac Toe</string>
+    <string name="app_name">My Tic Tac Toe Game</string>
     <string name="log_in">Log In</string>
     <string name="your_email_address">Your Email Address</string>
     <string name="password">Password</string>
