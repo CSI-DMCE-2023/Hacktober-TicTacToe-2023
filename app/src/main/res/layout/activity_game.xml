@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/themeColor"
     android:orientation="vertical"
+    android:gravity="center"
     tools:context=".game.GameActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Guest"
-        android:padding="10dp"
-        android:textSize="30sp"
+        android:textSize="@dimen/_30sdp"
         android:gravity="center"
         android:fontFamily="@font/josefin_sans_bold"
         android:textColor="@color/white"
@@ -27,30 +27,30 @@
         android:layout_centerHorizontal="true"
         android:background="#f4eee8"
         android:id="@+id/frow"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:layout_below="@id/status">
 
         <ImageView
             android:id="@+id/et1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="0" />
 
         <ImageView
             android:id="@+id/et2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="1" />
 
         <ImageView
             android:id="@+id/et3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="2" />
     </LinearLayout>
@@ -67,25 +67,25 @@
 
         <ImageView
             android:id="@+id/et4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="3" />
 
         <ImageView
             android:id="@+id/et5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="4" />
 
         <ImageView
             android:id="@+id/et6"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="5" />
     </LinearLayout>
@@ -98,30 +98,29 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/trow"
         android:gravity="center"
-
         android:layout_below="@id/srow">
 
         <ImageView
             android:id="@+id/et7"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="6" />
 
         <ImageView
             android:id="@+id/et8"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="7" />
 
         <ImageView
             android:id="@+id/et9"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_margin="@dimen/_5sdp"
             android:src="@color/themeColor"
             android:tag="8" />
 
@@ -134,10 +133,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/trow"
         android:layout_centerInParent="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:backgroundTint="#cf0000"
         android:fontFamily="@font/josefin_sans_bold"
         android:text="Restart Game"
+        android:textSize="@dimen/_10sdp"
+        android:paddingHorizontal="@dimen/_20sdp"
+        android:paddingVertical="@dimen/_5sdp"
         app:backgroundTint="#CF0000" />
 
-</RelativeLayout>
+</LinearLayout>

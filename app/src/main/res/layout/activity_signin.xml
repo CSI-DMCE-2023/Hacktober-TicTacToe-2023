@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg"
+    android:gravity="center"
     tools:context=".auth.SignUpActivity">
 
     <LinearLayout
-        android:layout_width="331dp"
+        android:layout_width="@dimen/_290sdp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginHorizontal="@dimen/_10sdp"
         android:background="@drawable/bgfront"
         android:orientation="vertical"
-        android:padding="40dp">
+        android:gravity="center"
+        android:padding="@dimen/_10sdp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:fontFamily="@font/josefin_sans_bold"
             android:text="Sign Up"
             android:textStyle="bold"
             android:textFontWeight="800"
             android:textColor="#0EEAEB"
-            android:textSize="40dp" />
+            android:textSize="@dimen/_40sdp" />
 
 
         <EditText
             android:id="@+id/gname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="@dimen/_15sdp"
             android:ems="10"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Your Game Name"
             android:inputType="textPersonName"
             android:text=""
             android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
             android:textColorHint="#CAE2FC" />
 
 
@@ -45,13 +48,14 @@
             android:id="@+id/emailS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:ems="10"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Your Email Address"
             android:inputType="textEmailAddress"
             android:text=""
             android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
             android:textColorHint="#CAE2FC" />
 
 
@@ -59,22 +63,24 @@
             android:id="@+id/pass1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Password"
             android:inputType="textPassword"
             android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
             android:textColorHint="#CAE2FC" />
 
         <EditText
             android:id="@+id/pass2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Re-typePassword"
             android:inputType="textPassword"
             android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
             android:textColorHint="#CAE2FC" />
 
         <Button
@@ -83,20 +89,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/josefin_sans_bold"
-            android:text="Regsiter Me!"
+            android:text="Register Me!"
+            android:textSize="@dimen/_10sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_5sdp"
             app:backgroundTint="#0E53EB" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
             android:fontFamily="@font/josefin_sans_bold"
             android:onClick="onClick"
             android:text="Already I've my account!"
+            android:textSize="@dimen/_12sdp"
             android:textColor="#0EEB7A" />
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

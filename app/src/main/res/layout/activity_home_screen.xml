@@ -1,62 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/themeColor"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".home.PlayersActivity">
 
     <ImageView
         android:id="@+id/img"
-        android:layout_width="391dp"
-        android:layout_height="268dp"
-        android:layout_marginTop="52dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/homesl" />
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:srcCompat="@drawable/homesl"/>
 
     <LinearLayout
-        android:layout_width="332dp"
-        android:layout_height="256dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img">
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
 
         <EditText
             android:id="@+id/name1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="@dimen/_10sdp"
             android:drawableLeft="@drawable/username_background"
             android:drawableBottom="@color/purple_500"
-            android:drawablePadding="10dp"
+            android:drawablePadding="@dimen/_5sdp"
             android:ems="10"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="First Player"
             android:textColorHint="#CAE2FC"
             android:inputType="textPersonName"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_15sdp" />
 
         <EditText
             android:id="@+id/name2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="15dp"
+            android:layout_margin="@dimen/_10sdp"
             android:drawableLeft="@drawable/username_background"
             android:drawableBottom="@color/purple_500"
-            android:drawablePadding="10dp"
+            android:drawablePadding="@dimen/_5sdp"
             android:ems="10"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Second Player"
             android:textColorHint="#CAE2FC"
             android:inputType="textPersonName"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="@dimen/_15sdp"/>
 
         <Button
             android:id="@+id/btnGuest"
@@ -64,17 +60,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
+            android:layout_margin="@dimen/_10sdp"
             android:fontFamily="@font/josefin_sans_bold"
             android:text="Play Game"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textStyle="bold"
             app:backgroundTint="@color/teal_200"
+            android:textSize="@dimen/_10sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_5sdp"
             app:cornerRadius="5dp" />
 
     </LinearLayout>
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

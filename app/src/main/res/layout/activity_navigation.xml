@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/themeColor"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".home.NavigationActivity">
 
     <ImageView
         android:id="@+id/img"
-        android:layout_width="391dp"
-        android:layout_height="268dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/homesl" />
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        app:srcCompat="@drawable/homesl"/>
 
 
     <LinearLayout
-        android:layout_width="359dp"
-        android:layout_height="325dp"
-        android:layout_marginStart="132dp"
-        android:layout_marginTop="113dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginBottom="191dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img"
-        app:layout_constraintVertical_bias="0.399"
-        tools:ignore="MissingConstraints">
+        android:gravity="center">
+<!--        android:layout_marginStart="132dp"-->
+<!--        android:layout_marginTop="113dp"-->
+<!--        android:layout_marginEnd="132dp"-->
+<!--        android:layout_marginBottom="191dp"-->
 
 
         <Button
@@ -42,9 +33,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/_5sdp"
             android:fontFamily="@font/josefin_sans_bold"
             android:text="Sign In"
+            android:textSize="@dimen/_15sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_5sdp"
             app:backgroundTint="#860EEB" />
 
         <Button
@@ -53,9 +47,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/_5sdp"
             android:fontFamily="@font/josefin_sans_bold"
             android:text="Log In"
+            android:textSize="@dimen/_15sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_5sdp"
             app:backgroundTint="#860EEB" />
 
         <Button
@@ -64,12 +61,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="20dp"
+            android:layout_margin="@dimen/_5sdp"
             android:fontFamily="@font/josefin_sans_bold"
-            android:padding="15dp"
             android:text="Play As Guest"
-
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_5sdp"
             app:backgroundTint="@color/teal_200" />
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

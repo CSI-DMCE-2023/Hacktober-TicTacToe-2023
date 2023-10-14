@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/bg2"
+    android:gravity="center"
     tools:context=".auth.LoginActivity">
 
     <LinearLayout
-        android:layout_width="323dp"
+        android:layout_width="@dimen/_290sdp"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:background="@drawable/bgfront"
         android:orientation="vertical"
-        android:padding="40dp">
+        android:padding="@dimen/_10sdp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,19 +22,20 @@
             android:fontFamily="@font/josefin_sans_bold"
             android:text="Log In"
             android:textColor="#0EEAEB"
-            android:textSize="40dp" />
+            android:textSize="@dimen/_30sdp" />
 
 
         <EditText
             android:id="@+id/emaill"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:ems="10"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Your Email Address"
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
             android:textColorHint="#CAE2FC" />
 
 
@@ -42,11 +43,12 @@
             android:id="@+id/passl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/josefin_sans_bold"
             android:hint="Password"
             android:inputType="textPassword"
             android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp"
             android:textColorHint="#CAE2FC" />
 
 
@@ -56,9 +58,12 @@
             android:layout_height="wrap_content"
             android:id="@+id/logBtn"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/_20sdp"
             app:backgroundTint="#860EEB"
             android:fontFamily="@font/josefin_sans_bold"
+            android:textSize="@dimen/_10sdp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:paddingVertical="@dimen/_5sdp"
             android:text="Log In!" />
 
 
@@ -68,12 +73,13 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/josefin_sans_bold"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/_10sdp"
             android:textColor="#0EEB7A"
             android:text="I don't have my account :)"
+            android:textSize="@dimen/_12sdp"
             android:onClick="onClick" />
 
     </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>
