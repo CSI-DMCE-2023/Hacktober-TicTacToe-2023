@@ -12,10 +12,6 @@ Thank you for considering contributing to the Tic Tac Toe App. We appreciate you
 - [Community](#community)
 - [License](#license)
 
-## Code of Conduct
-
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. The Code of Conduct can be found in the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file.
-
 ## How to Contribute
 
 1. Fork the repository on GitHub.
@@ -66,5 +62,3 @@ We encourage participation from the community. If you have questions, need help,
 ## License
 
 By contributing to this project, you agree that your contributions will be licensed under the project's license. Details can be found in the [LICENSE](LICENSE) file.
-
-Make sure to replace the placeholders (e.g., `your-username`, `feature/your-feature-name`, and `your feature description`) with the actual information relevant to your project. You can also add any specific guidelines or instructions tailored to your project's development process and requirements.
