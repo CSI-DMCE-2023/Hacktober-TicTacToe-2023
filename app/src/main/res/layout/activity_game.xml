@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Guest"
+        android:text="@string/guest"
         android:textSize="@dimen/_30sdp"
         android:gravity="center"
         android:fontFamily="@font/josefin_sans_bold"
@@ -136,7 +136,7 @@
         android:layout_marginTop="@dimen/_10sdp"
         android:backgroundTint="#cf0000"
         android:fontFamily="@font/josefin_sans_bold"
-        android:text="Restart Game"
+        android:text="@string/restart_game"
         android:textSize="@dimen/_10sdp"
         android:paddingHorizontal="@dimen/_20sdp"
         android:paddingVertical="@dimen/_5sdp"

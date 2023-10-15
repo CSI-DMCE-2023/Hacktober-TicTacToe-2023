@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/josefin_sans_bold"
-            android:text="Log In"
+            android:text="@string/log_in"
             android:textColor="#0EEAEB"
             android:textSize="@dimen/_30sdp" />
 
@@ -32,7 +32,7 @@
             android:layout_marginTop="@dimen/_20sdp"
             android:ems="10"
             android:fontFamily="@font/josefin_sans_bold"
-            android:hint="Your Email Address"
+            android:hint="@string/your_email_address"
             android:inputType="textEmailAddress"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/josefin_sans_bold"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
@@ -64,7 +64,7 @@
             android:textSize="@dimen/_10sdp"
             android:paddingHorizontal="@dimen/_20sdp"
             android:paddingVertical="@dimen/_5sdp"
-            android:text="Log In!" />
+            android:text="@string/log_in" />
 
 
 
@@ -75,7 +75,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/_10sdp"
             android:textColor="#0EEB7A"
-            android:text="I don't have my account :)"
+            android:text="@string/dont_have_my_account"
             android:textSize="@dimen/_12sdp"
             android:onClick="onClick" />
 
