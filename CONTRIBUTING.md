@@ -16,18 +16,11 @@ Thank you for considering contributing to the Tic Tac Toe App. We appreciate you
 
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms. The Code of Conduct can be found in the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file.
 
-## Getting Started
-
-Before you start contributing, make sure you have the following tools and dependencies installed:
-
-- [Node.js](https://nodejs.org/) (recommended LTS version)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
 ## How to Contribute
 
 1. Fork the repository on GitHub.
 2. Clone the forked repository to your local machine:
-   git clone https://github.com/your-username/tic-tac-toe-app.git
+   git clone https://github.com/CSI-DMCE-2023/Hacktober-TicTacToe-2023.git
 
 3. Create a new branch for your changes:
    git checkout -b feature/your-feature-name
