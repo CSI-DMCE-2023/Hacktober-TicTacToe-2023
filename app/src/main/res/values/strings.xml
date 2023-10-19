@@ -1,3 +1,32 @@
 <resources>
+    <!--    app name-->
     <string name="app_name">Tic Tac Toe</string>
+
+    <!--    activity_navigation.xml-->
+    <string name="sign_in">Sign In</string>
+    <string name="log_in">Log In</string>
+    <string name="play_as_guest">Play As Guest</string>
+
+    <!--    activity_signin.xml-->
+    <string name="sign_up">Sign Up</string>
+    <string name="your_game_name">Your Game Name</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="password">Password</string>
+    <string name="re_typepassword">Re-typePassword</string>
+    <string name="register_me">Register Me!</string>
+    <string name="already_have_account">Already I\'ve my account!</string>
+
+    <!--    activity_login.xml-->
+    <string name="dont_have_my_account">I don\'t have my account :)</string>
+
+    <!--    activity_home_screen.xml-->
+    <string name="first_player">First Player</string>
+    <string name="second_player">Second Player</string>
+    <string name="play_game">Play Game</string>
+
+    <!--    activity_game.xml-->
+    <string name="restart_game">Restart Game</string>
+    <string name="guest">Guest</string>
+
+
 </resources>
